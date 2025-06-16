@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 44px;
+    padding: 0;
+    min-width: 1920px;
+    margin: 0 auto;
+}
+
+
+
+.main-title {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title { 
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    color: #161D25;
+}
+
+.title-pharagraph {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    word-spacing: 1px;
+    color: #5D7085;
+}
+
+.card-list {
+    padding: 0;
+    margin-top: 69px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+.card {
+    box-sizing: border-box;
+    min-width: 266px;
+    min-height: 601px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 36px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.card_button {
+    background: initial;
+    width: 196px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    border: 2px, solid, #fff;
+    border-radius: 2px;
+}
+
+.card_personal {
+    background: linear-gradient( #FDC624, #E6C434);
+}
+
+.image_snail {
+    width: 197px;
+}
+
+.card-business {
+    background: linear-gradient( #55DCE7, #3DCAD4);
+}
+
+.image_car {
+    width: 172px;
+}
+
+.card-developer {
+    background: linear-gradient(#6BDFFF, #3DACFC);
+}
+
+.img_minibus {
+    width: 180px;
+}
+
+.card-agency {
+    background: linear-gradient( #BFCEDC, #939FB3);
+}
+
+.img_gun {
+    width: 170px;
+}
