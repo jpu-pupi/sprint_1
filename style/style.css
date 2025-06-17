@@ -44,18 +44,31 @@ body {
     justify-content: center;
     gap: 6px;
 }
+
+.text-main {
+    color: #fff;
+}
+
 .card {
     box-sizing: border-box;
     min-width: 266px;
     min-height: 601px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse;  
     padding-bottom: 36px;
     padding-right: 35px;
     padding-left: 35px;
 }
 
+.card_container-img {
+    height: 201px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card_button {
+    margin-top: auto;
     background: initial;
     width: 196px;
     height: 40px;
@@ -67,19 +80,70 @@ body {
     border-radius: 2px;
 }
 
+.card_button-developer:hover {
+    background-color: #fff;
+    color: #44A9FD;
+}
+
+.card_button-snail:hover {
+    background-color: #fff;
+    color: #E6C434;
+}
+
+.card_button-car:hover {
+    background-color: #fff;
+    color: #3DCAD4;
+}
+
+.card_button-gun:hover {
+    background-color: #fff;
+    color: #939FB3;
+}
+
+.card_content-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    justify-content: space-around;
+    list-style-image: url(../images/Done.png);
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.card_text-price {
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card_text-up {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.card-text_under-title {
+    margin-bottom: 27px;
+    font-size: 12px;
+    font-weight: 400;
+}
 .card_personal {
     background: linear-gradient( #FDC624, #E6C434);
 }
 
-.image_snail {
+.image_personal {
     width: 197px;
 }
 
 .card-business {
+    box-sizing: border-box;
     background: linear-gradient( #55DCE7, #3DCAD4);
 }
 
-.image_car {
+.image_business {
     width: 172px;
 }
 
@@ -87,7 +151,7 @@ body {
     background: linear-gradient(#6BDFFF, #3DACFC);
 }
 
-.img_minibus {
+.img_developer {
     width: 180px;
 }
 
@@ -95,6 +159,6 @@ body {
     background: linear-gradient( #BFCEDC, #939FB3);
 }
 
-.img_gun {
+.img_agency {
     width: 170px;
 }
